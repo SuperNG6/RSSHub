@@ -20,7 +20,7 @@ pageClass: routes
 
 ### Blog using Next theme
 
-<RouteEn author="fengkx" path="/hexo/next/:url" example="/hexo/next/fengkx.top" :paramsDesc="['the blog URL without the protocol (http:// and https://)']" />
+<RouteEn author="fengkx" path="/hexo/next/:url" example="/hexo/next/diygod.me" :paramsDesc="['the blog URL without the protocol (http:// and https://)']" />
 
 ### Blog using Yilia theme
 
@@ -42,3 +42,8 @@ pageClass: routes
 
 <Route author="Lonor" example="/blogs/wordpress/lawrence.code.blog" path="/blogs/wordpress/:domain/:https?" :paramsDesc="['WordPress blog domain', 'use https by default. options: `http` or `https`']"/>
 
+## yuzu emulator
+
+### Entry
+
+<RouteEn author="nczitzk" example="/yuzu-emu/entry" path="/yuzu-emu/entry" />
